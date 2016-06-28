@@ -1,0 +1,25 @@
+{
+  "name": "react-native-vector-image-android",
+  "version": "0.0.1",
+  "description": "",
+  "main": "VectorImage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuchungui/react-native-android-intent.git"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "vector",
+    "react-native-vector-image-android"
+  ],
+  "author": "pera747",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuchungui/react-native-android-intent/issues"
+  },
+  "homepage": "https://github.com/liuchungui/react-native-android-intent#readme"
+}
