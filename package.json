@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liuchungui/react-native-android-intent.git"
+    "url": "git+https://github.com/quispoke/vectorImage.git"
   },
   "keywords": [
     "react-native",
@@ -19,7 +19,7 @@
   "author": "pera747",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liuchungui/react-native-android-intent/issues"
+    "url": "https://github.com/quispoke/vectorImage/issues"
   },
-  "homepage": "https://github.com/liuchungui/react-native-android-intent#readme"
+  "homepage": "https://github.com/quispoke/vectorImage/blob/master/README.md"
 }

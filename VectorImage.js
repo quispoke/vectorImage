@@ -1,14 +1,15 @@
-var { requireNativeComponent, PropTypes } = require('react-native');
+import { PropTypes } from 'react';
+import { requireNativeComponent, View } from 'react-native';
 
 var iface = {
   name: 'VectorImage',
   propTypes: {
-    settings: PropTypes.object 
+    settings: PropTypes.object
   },
 };
 
 module.exports = requireNativeComponent('RCTVectorImage', iface,
-    {nativeOnly: {
+  {nativeOnly: {
         'testID': true,
         'accessibilityComponentType': true,
         'renderToHardwareTextureAndroid': true,
@@ -22,10 +23,3 @@ module.exports = requireNativeComponent('RCTVectorImage', iface,
         'onLayout': true
         }
     });
-
-// ({
-//   reasourceName : PropTypes.string.isRequired,
-//   width: PropTypes.number.isRequired,
-//   height: PropTypes.number.isRequired
-//
-// })
