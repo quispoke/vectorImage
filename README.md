@@ -45,3 +45,21 @@ npm install react-native-vector-image-android --save
         }
    }
    ```
+   
+# General Usage
+
+```js
+var VectorImage = require('react-native-vector-image-android');
+```
+
+```jsx
+  <VectorImage
+      style={{height: side, width: side}}
+      settings={{
+          height: Math.floor(side * pixelRatio),
+          width: Math.floor(side * pixelRatio),
+          resourceName: 'ic_local_bar_48px',
+          color : [0xFF, 0x00, 0x00, 0xFF]
+      }}>
+    </VectorImage>
+```
