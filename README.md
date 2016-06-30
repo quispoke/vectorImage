@@ -21,12 +21,11 @@ npm install react-native-vector-image-android --save
    ```
 
 2. in `android/settings.gradle` add:
-```
-include ':react-native-vector-image-android'
-project(':react-native-vector-image-android').projectDir = file('../node_modules/react-native-vector-image-android/android')
-
-```
-
+   ```
+   ...
+   include ':react-native-vector-image-android'
+   project(':react-native-vector-image-android').projectDir = file('../node_modules/react-native-vector-image-android/android')
+   ```
 
 3. in `android/app/src/main/java/com/{YOUR_APP_NAME}/MainActivity.java` add:
 
