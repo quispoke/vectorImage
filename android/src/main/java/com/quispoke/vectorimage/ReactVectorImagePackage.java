@@ -1,4 +1,4 @@
-package com.quispoke.vectorImage;
+package com.quispoke.vectorimage;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

@@ -1,4 +1,4 @@
-package com.quispoke.vectorImage;
+package com.quispoke.vectorimage;
 
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -15,7 +15,7 @@ import android.widget.RelativeLayout;
 import com.facebook.react.bridge.NoSuchKeyException;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
-import com.facebook.react.modules.core.JavascriptException;
+import com.facebook.react.common.JavascriptException;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewGroupManager;
